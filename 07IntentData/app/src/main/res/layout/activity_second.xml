@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:text="登录后的界面" />
+    <TextView
+        android:id="@+id/user_info_txt"
+        android:layout_width="match_parent"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/address_edt"
+        android:layout_width="match_parent"
+        android:hint="电话/网页地址"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/call_phone_btn"
+        android:layout_width="match_parent"
+        android:text="打电话"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/send_msm_btn"
+        android:layout_width="match_parent"
+        android:text="发送短信"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/borwer_url_btn"
+        android:layout_width="match_parent"
+        android:text="打开网页浏览"
+        android:layout_height="50dp" />
+
+</LinearLayout>
