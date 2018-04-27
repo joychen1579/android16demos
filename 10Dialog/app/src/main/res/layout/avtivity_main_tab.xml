@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_height="80dp">
+        <!--1.微信   2 通讯录  3  发现   4我-->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/weixin_rb"
+                style="@style/main_tab_bottom"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/tab_weixin_selector"
+                android:text="微信" />
+            <RadioButton
+                android:id="@+id/contans_rb"
+                style="@style/main_tab_bottom"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/tab_contaxt_selector"
+                android:text="联系人" />
+            <RadioButton
+                android:id="@+id/find_rb"
+                style="@style/main_tab_bottom"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/tab_find_selector"
+                android:text="发现" />
+            <RadioButton
+                android:id="@+id/my_rb"
+                style="@style/main_tab_bottom"
+                android:gravity="center_horizontal"
+                android:drawableTop="@drawable/tab_my_selector"
+                android:text="我" />
+            
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
